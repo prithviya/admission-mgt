@@ -2,7 +2,25 @@
 {
   color: #444;
 }
-
+/* header blicnking counselling code */
+.header {
+  font-size: 1.3rem;
+  font-family: "PT Serif";
+  font-weight: 900;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 10s infinite linear;
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+ }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+ }
+}
 button {
   position: relative;
   padding: 19px 36px;
