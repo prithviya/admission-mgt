@@ -2,6 +2,31 @@
 {
   color: #444;
 }
+@font-face {
+  font-family: 'biorhyme';
+  src: url(../font/BioRhyme-ExtraBold.ttf);
+}
+@font-face
+{
+  font-family: 'sources';
+  src: url(../font/SourceSerif4_48pt-Bold.ttf);
+}
+@font-face {
+  font-family: 'poppins';
+  src: url(../font/Poppins-Medium.ttf);
+}
+.custom-head
+{
+  font-family: 'biorhyme';
+}
+.custom-title
+{
+  font-family: 'sources';
+}
+.custom-subtitle
+{
+  font-family: 'poppins';
+}
 /* header blicnking counselling code */
 .header {
   font-size: 1.3rem;
@@ -47,6 +72,7 @@ button span {
   color: #fff;
   letter-spacing: 4px;
   z-index: 1;
+  font-family: 'biorhyme';
   }
    
 button .liquid {
