@@ -30,7 +30,6 @@
 /* header blicnking counselling code */
 .header {
   font-size: 1.3rem;
-  font-family: "PT Serif";
   font-weight: 900;
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -943,8 +942,8 @@ background-color: #505050 ;
 .text-block 
 {
   background-color: rgba(255,255,255,0.7);
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
   padding-top: 5px;
   border-radius: 5px;
 }
